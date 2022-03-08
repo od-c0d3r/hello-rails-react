@@ -22,3 +22,5 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+[Messages Rescource](https://www.wishesmsg.com/good-day-wishes-messages/)
