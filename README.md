@@ -45,9 +45,15 @@ In the project directory, run in order:
   - Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
+- #### `./bin/webpack`
+
+  - Combine React app modules.
+     - _You might run up with error : `opensslErrorStack`_
+     - In that case run in terminal : `export NODE_OPTIONS=--openssl-legacy-provider`
+
 - #### [EXTRA] `./bin/webpack-dev-server` 
 
-  - The page will reload when you make changes to the front-end part.
+  - The page will reload when you make changes to any of Js modules.
 
 ## Coders
 

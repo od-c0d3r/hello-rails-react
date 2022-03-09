@@ -7,7 +7,6 @@ import { fetchMessage } from "../state/message/messageSlice";
 const Greeting = () => {
   const dispatch = useDispatch();
   const { message } = useSelector((state) => state.message);
-  console.log();
 
   useEffect(() => dispatch(fetchMessage()), [])
 
