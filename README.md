@@ -1,24 +1,77 @@
-# README
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Hello Rails React 
 
-Things you may want to cover:
+> Connect previous knowledge with new knowledge as we get .\
+> a chance to use the `react-rails` gem. 
 
-* Ruby version
+> This gem allows you to build React components as a part of your Rails JavaScript and serve it in a component, react_component, to be used in a regular ERB file.
 
-* System dependencies
+## Built With
 
-* Configuration
+- Rails 7 ~ _Ruby Web development framework_
+- React, Redux, Routers ~ _Javascript Libraries_ 
 
-* Database creation
+## Getting Started
 
-* Database initialization
+To get a local copy up and running follow these simple example steps
 
-* How to run the test suite
+- From your terminal enter in sequence
+  - `git clone https://github.com/od-c0d3r/hello-rails-react`
+  - `code hello-rails-react`
 
-* Services (job queues, cache servers, search engines, etc.)
+### Available Scripts
 
-* Deployment instructions
+In the project directory, run in order:
 
-* ...
+- #### `npm install`
+
+  - Install the project dependencies.
+
+- #### `rails db:create`
+
+  - Creates the project database.
+
+- #### `rails db:migrate`
+
+  - Creates the tables in the database.
+
+- #### `rails db:seed`
+
+  - Populate the tables with default records.
+
+- #### `rails server`
+
+  - Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+- #### `./bin/webpack`
+
+  - Combine React app modules.
+     - _You might run up with error : `opensslErrorStack`_\
+  _In that case run in terminal : `export NODE_OPTIONS=--openssl-legacy-provider`_
+
+- #### [EXTRA] `./bin/webpack-dev-server` 
+
+  - The page will reload when you make changes to any of Js modules.
+
+## Coders
+
+👤 **Omar Rashad**
+
+- GitHub: [@od-c0d3r](https://github.com/githubhandle)
+- LinkedIn: [@omarrashad](https://linkedin.com/in/omarrashad)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## License
+
+This project is [MIT](./MIT.md) licensed.
