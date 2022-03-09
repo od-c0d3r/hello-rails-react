@@ -11,9 +11,9 @@ const Greeting = () => {
   useEffect(() => dispatch(fetchMessage()), [])
 
   return (
-    <React.Fragment>
+    <>
       {message.message_content}
-    </React.Fragment>
+    </>
   );
 }
 

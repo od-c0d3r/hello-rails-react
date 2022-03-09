@@ -48,8 +48,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 - #### `./bin/webpack`
 
   - Combine React app modules.
-     - _You might run up with error : `opensslErrorStack`_
-     - In that case run in terminal : `export NODE_OPTIONS=--openssl-legacy-provider`
+     - _You might run up with error : `opensslErrorStack`_\
+  _In that case run in terminal : `export NODE_OPTIONS=--openssl-legacy-provider`_
 
 - #### [EXTRA] `./bin/webpack-dev-server` 
 
